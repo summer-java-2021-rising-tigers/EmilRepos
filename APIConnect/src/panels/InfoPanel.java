@@ -35,16 +35,6 @@ public class InfoPanel extends JPanel {
 			"Equipment categories" };
 
 	public InfoPanel() {
-//		CloseableHttpResponse rsp = null;
-//		DefaultHttpClient client = new DefaultHttpClient();
-////		HttpGet get = new HttpGet("https://www.dnd5eapi.co/api");
-//		
-//	        try {
-//	        	rsp = client.execute(new HttpGet("https://www.dnd5eapi.co/api"));
-//			} catch (IOException e) {
-//				// TODO Auto-generated catch block
-//				e.printStackTrace();
-//			}
 		
 		setBounds(1000, 100, 248, 400);
 		setBackground(Color.LIGHT_GRAY);
