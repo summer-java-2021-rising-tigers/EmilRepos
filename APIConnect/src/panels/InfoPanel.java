@@ -35,16 +35,16 @@ public class InfoPanel extends JPanel {
 			"Equipment categories" };
 
 	public InfoPanel() {
-		CloseableHttpResponse rsp = null;
-		DefaultHttpClient client = new DefaultHttpClient();
-//		HttpGet get = new HttpGet("https://www.dnd5eapi.co/api");
-		
-	        try {
-	        	rsp = client.execute(new HttpGet("https://www.dnd5eapi.co/api"));
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+//		CloseableHttpResponse rsp = null;
+//		DefaultHttpClient client = new DefaultHttpClient();
+////		HttpGet get = new HttpGet("https://www.dnd5eapi.co/api");
+//		
+//	        try {
+//	        	rsp = client.execute(new HttpGet("https://www.dnd5eapi.co/api"));
+//			} catch (IOException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
 		
 		setBounds(1000, 100, 248, 400);
 		setBackground(Color.LIGHT_GRAY);
@@ -59,9 +59,9 @@ public class InfoPanel extends JPanel {
 		comboBox.setBounds(32, 37, 172, 22);
 		add(comboBox);
 		
-		JLabel lblNewLabel_1 = new JLabel(rsp.toString());
-		lblNewLabel_1.setBounds(10, 93, 228, 227);
-		add(lblNewLabel_1);
+		// JLabel lblNewLabel_1 = new JLabel(rsp.toString());
+		// lblNewLabel_1.setBounds(10, 93, 228, 227);
+		// add(lblNewLabel_1);
 		setVisible(true);
 	}
 }
