@@ -52,6 +52,15 @@ public class InfoPanel extends JPanel {
 		JComboBox comboBox = new JComboBox(infoCategories);
 		comboBox.setBounds(32, 37, 172, 22);
 		add(comboBox);
+		JComboBox comboBox2 = new JComboBox(infoCategories);
+		comboBox2.setBounds(32, 37, 172, 22);
+		add(comboBox2);
+		JComboBox comboBox3 = new JComboBox(infoCategories);
+		comboBox3.setBounds(32, 37, 172, 22);
+		add(comboBox3);
+		JComboBox comboBox4 = new JComboBox(infoCategories);
+		comboBox4.setBounds(32, 37, 172, 22);
+		add(comboBox4);
 		
 		// JLabel lblNewLabel_1 = new JLabel(rsp.toString());
 		// lblNewLabel_1.setBounds(10, 93, 228, 227);
