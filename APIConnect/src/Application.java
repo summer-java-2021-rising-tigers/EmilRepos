@@ -37,13 +37,11 @@ public class Application {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
-		frame = new JFrame("APIConect");
-		// InfoPanel infopanel = new InfoPanel();
+		JFrame frame = new JFrame("APIConect");
 		frame.setExtendedState(JFrame.MAXIMIZED_BOTH); 
 		frame.setVisible(true);
 		frame.getContentPane().setBackground(Color.DARK_GRAY);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//		frame.setLayout(new );
 		InfoPanel infoPanel = new InfoPanel();
 		frame.getContentPane().add(infoPanel);
 		frame.setLayout(null);
@@ -51,9 +49,6 @@ public class Application {
 		JComboBox comboBox3 = new JComboBox(infoCategories);
 		comboBox3.setBounds(32, 37, 172, 22);
 		add(comboBox3);
-		JComboBox comboBox4 = new JComboBox(infoCategories);
-		comboBox4.setBounds(32, 37, 172, 22);
-		add(comboBox4);
 	}
 
 }
