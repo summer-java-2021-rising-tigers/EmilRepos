@@ -47,6 +47,13 @@ public class Application {
 		InfoPanel infoPanel = new InfoPanel();
 		frame.getContentPane().add(infoPanel);
 		frame.setLayout(null);
+		
+		JComboBox comboBox3 = new JComboBox(infoCategories);
+		comboBox3.setBounds(32, 37, 172, 22);
+		add(comboBox3);
+		JComboBox comboBox4 = new JComboBox(infoCategories);
+		comboBox4.setBounds(32, 37, 172, 22);
+		add(comboBox4);
 	}
 
 }
