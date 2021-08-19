@@ -32,6 +32,10 @@ public class InfoPanel extends JPanel {
 			"Classes",
 			"Conditions",
 			"Damage types",
+			"Conditions",
+			"Damage types",
+			"Conditions",
+			"Damage types",
 			"Equipment categories" };
 
 	public InfoPanel() {
